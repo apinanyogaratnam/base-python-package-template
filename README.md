@@ -22,7 +22,8 @@ pip install base
 ```python
 import base_python_package_template
 
-base_python_package_template.greetings()
+greeting = base_python_package_template.greetings()
+print(greeting)
 ```
 
 ## Support
