@@ -20,9 +20,9 @@ pip install base
 ## Usage
 
 ```python
-import base_python_package_template
+from base_python_package_template import greetings
 
-greeting = base_python_package_template.greetings()
+greeting = greetings()
 print(greeting)
 ```
 
