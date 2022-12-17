@@ -1,6 +1,8 @@
 # Base Python Template
 
-[![Downloads](https://static.pepy.tech/personalized-badge/cachier-common-library?period=total&units=none&left_color=grey&right_color=green&left_text=Downloads)](https://pepy.tech/project/base-python-package-template)
+[repo]: base-python-package-template
+
+[![Downloads](https://static.pepy.tech/personalized-badge/[repo]?period=total&units=none&left_color=grey&right_color=green&left_text=Downloads)](https://pepy.tech/project/[repo])
 
 A template of README best practices to make your README simple to understand and easy to use.
 
@@ -30,8 +32,8 @@ print(greeting)
 
 ## Support
 
-Please [open an issue](https://github.com/apinanyogaratnam/base-python-package-template/issues/new) for support.
+Please [open an issue](https://github.com/apinanyogaratnam/[repo]/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/apinanyogaratnam/base-python-package-template/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/apinanyogaratnam/[repo]/compare/).
