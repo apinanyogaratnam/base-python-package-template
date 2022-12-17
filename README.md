@@ -1,6 +1,6 @@
 # Base Python Template
 
-[![Downloads](https://static.pepy.tech/personalized-badge/cachier-common-library?period=total&units=none&left_color=grey&right_color=green&left_text=Downloads)](https://pepy.tech/project/base-python-package-template)
+[![Downloads](https://static.pepy.tech/personalized-badge/base-python-package-template?period=total&units=none&left_color=grey&right_color=blue&left_text=Downloads)](https://pepy.tech/project/base-python-package-template)
 
 A template of README best practices to make your README simple to understand and easy to use.
 
