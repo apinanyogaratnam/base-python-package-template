@@ -11,8 +11,10 @@ variable_value = next(
     None,
 )
 
-ignore_line = f'[{variable_name}]: {variable_name}'
+ignore_line = f'[{variable_name}]: {variable_value}'
+print('ignore line:', ignore_line)
 
+new_lines = []
 for line in lines:
     if ignore_line in line:
         continue
@@ -20,6 +22,8 @@ for line in lines:
     if f'[{variable_name}]' in line:
         line = line.replace(f'[{variable_name}]', variable_value)
 
+    new_lines.append(line)
+
 with open('test.txt', 'w') as f:
-    for line in lines:
+    for line in new_lines:
         f.write(line)
