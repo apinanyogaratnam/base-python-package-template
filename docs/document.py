@@ -16,6 +16,7 @@ ignore_line = f'[{variable_name}]: {variable_value}'
 new_lines = []
 for line in lines:
     if ignore_line in line:
+        new_lines.pop()
         continue
 
     if f'[{variable_name}]' in line:
