@@ -12,7 +12,6 @@ variable_value = next(
 )
 
 ignore_line = f'[{variable_name}]: {variable_value}'
-print('ignore line:', ignore_line)
 
 new_lines = []
 for line in lines:
