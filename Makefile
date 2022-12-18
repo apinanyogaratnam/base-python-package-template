@@ -26,4 +26,4 @@ workflow:
 	make tag
 
 generate-docs:
-	python document.py
+	python docs/document.py
