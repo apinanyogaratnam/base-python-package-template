@@ -23,6 +23,6 @@ for line in lines:
 
     new_lines.append(line)
 
-with open('test.txt', 'w') as f:
+with open('README.md', 'w') as f:
     for line in new_lines:
         f.write(line)
