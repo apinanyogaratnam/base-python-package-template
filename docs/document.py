@@ -10,4 +10,16 @@ variable_value = next(
     ),
     None,
 )
-print(variable_value)
+
+ignore_line = f'[{variable_name}]: {variable_name}'
+
+for line in lines:
+    if ignore_line in line:
+        continue
+
+    if f'[{variable_name}]' in line:
+        line = line.replace(f'[{variable_name}]', variable_value)
+
+with open('test.txt', 'w') as f:
+    for line in lines:
+        f.write(line)
