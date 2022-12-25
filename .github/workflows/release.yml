@@ -34,7 +34,17 @@ jobs:
     name: "Release"
     runs-on: "ubuntu-latest"
     steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+      - name: install make
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y make
+      - name: build package
+        run: make build
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
+          files: |
+            dist/*
