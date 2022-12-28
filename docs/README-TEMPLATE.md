@@ -3,6 +3,7 @@
 [repo]: base-python-package-template
 
 [![Downloads](https://static.pepy.tech/personalized-badge/[repo]?period=total&units=none&left_color=grey&right_color=green&left_text=Downloads)](https://pepy.tech/project/[repo])
+[![Test](https://github.com/apinanyogaratnam/[repo]/actions/workflows/test.yaml/badge.svg)](https://github.com/apinanyogaratnam/[repo]/actions/workflows/test.yaml)
 
 A template of README best practices to make your README simple to understand and easy to use.
 
