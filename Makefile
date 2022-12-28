@@ -25,5 +25,8 @@ workflow:
 	make upload
 	make tag
 
+test:
+	pytest .
+
 generate-docs:
 	python docs/document.py
